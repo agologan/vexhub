@@ -1,0 +1,9 @@
+{
+   "version": 1,
+   "packages": [
+      {
+         "id": "pkg:golang/github.com/tianon/gosu",
+         "location": "pkg/golang/github.com/tianon/gosu/scan.openvex.json"
+      }
+   ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "VEX Hub",
+  "description": "VEX Repository",
+  "versions": [
+    {
+      "spec_version": "0.1",
+      "locations": [
+        {
+          "url": "https://github.com/agologan/vexhub/archive/refs/heads/main.tar.gz//vexhub-main"
+        }
+      ],
+      "update_interval": "24h"
+    }
+  ]
+}
