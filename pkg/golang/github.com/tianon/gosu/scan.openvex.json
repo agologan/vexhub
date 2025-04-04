@@ -649,7 +649,8 @@
           ]
         }
       ],
-      "status": "affected"
+      "status": "fixed",
+      "status_notes": "https://github.com/tianon/gosu/issues/128#issuecomment-1607803883"
     },
     {
       "vulnerability": {

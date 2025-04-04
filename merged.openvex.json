@@ -2,7 +2,7 @@
   "@context": "https://openvex.dev/ns/v0.2.0",
   "@id": "merged-vex-4ce12987752b602d7765b6d282604ca15a9c90956285f39c973c930192ee77de",
   "author": "agologan@users.noreply.github.com",
-  "timestamp": "2025-04-03T13:51:21.618501+03:00",
+  "timestamp": "2025-04-04T10:52:58.485629+03:00",
   "version": 1,
   "statements": [
     {
@@ -676,7 +676,8 @@
           ]
         }
       ],
-      "status": "affected"
+      "status": "fixed",
+      "status_notes": "https://github.com/tianon/gosu/issues/128#issuecomment-1607803883"
     },
     {
       "vulnerability": {
