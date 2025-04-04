@@ -2,8 +2,32 @@
    "version": 1,
    "packages": [
       {
+         "id": "pkg:golang/github.com/containernetworking/plugins",
+         "location": "pkg/golang/github.com/containernetworking/plugins/scan.openvex.json"
+      },
+      {
+         "id": "pkg:golang/github.com/danielqsj/kafka_exporter",
+         "location": "pkg/golang/github.com/danielqsj/kafka_exporter/scan.openvex.json"
+      },
+      {
+         "id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams",
+         "location": "pkg/golang/github.com/prometheus-msteams/prometheus-msteams/scan.openvex.json"
+      },
+      {
          "id": "pkg:golang/github.com/tianon/gosu",
          "location": "pkg/golang/github.com/tianon/gosu/scan.openvex.json"
+      },
+      {
+         "id": "pkg:golang/helm.sh/chartmuseum",
+         "location": "pkg/golang/helm.sh/chartmuseum/scan.openvex.json"
+      },
+      {
+         "id": "pkg:golang/helm.sh/helm/v3",
+         "location": "pkg/golang/helm.sh/helm/v3/scan.openvex.json"
+      },
+      {
+         "id": "pkg:golang/k8s.io/dns",
+         "location": "pkg/golang/k8s.io/dns/scan.openvex.json"
       }
    ]
 }

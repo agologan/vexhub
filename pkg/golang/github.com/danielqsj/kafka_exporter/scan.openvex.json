@@ -1,0 +1,215 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "govulncheck/vex:92251ee7aa48d3dec5a55405dfca1f1c487ed87bda4bf2f9d5ced85e004c439f",
+  "author": "agologan@users.noreply.github.com",
+  "timestamp": "2025-04-04T17:15:39.26785Z",
+  "version": 1,
+  "tooling": "https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck",
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3105",
+        "name": "GO-2024-3105",
+        "description": "Stack exhaustion in all Parse functions in go/parser",
+        "aliases": [
+          "CVE-2024-34155"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3106",
+        "name": "GO-2024-3106",
+        "description": "Stack exhaustion in Decoder.Decode in encoding/gob",
+        "aliases": [
+          "CVE-2024-34156"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3107",
+        "name": "GO-2024-3107",
+        "description": "Stack exhaustion in Parse in go/build/constraint",
+        "aliases": [
+          "CVE-2024-34158"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3321",
+        "name": "GO-2024-3321",
+        "description": "Misuse of connection.serverAuthenticate may cause authorization bypass in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3333",
+        "name": "GO-2024-3333",
+        "description": "Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3487",
+        "name": "GO-2025-3487",
+        "description": "Potential denial of service in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3503",
+        "name": "GO-2025-3503",
+        "description": "HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    }
+  ]
+}

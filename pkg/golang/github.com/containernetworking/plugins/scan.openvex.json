@@ -1,0 +1,148 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "govulncheck/vex:19d5a9bb05b1cd3396c5a1c49f8c5570f22454bef4dc68169b04dd321479a42d",
+  "author": "agologan@users.noreply.github.com",
+  "timestamp": "2025-04-04T20:31:54.434483Z",
+  "version": 1,
+  "tooling": "https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck",
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2963",
+        "name": "GO-2024-2963",
+        "description": "Denial of service due to improper 100-continue handling in net/http",
+        "aliases": [
+          "CVE-2024-24791"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3105",
+        "name": "GO-2024-3105",
+        "description": "Stack exhaustion in all Parse functions in go/parser",
+        "aliases": [
+          "CVE-2024-34155"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3106",
+        "name": "GO-2024-3106",
+        "description": "Stack exhaustion in Decoder.Decode in encoding/gob",
+        "aliases": [
+          "CVE-2024-34156"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3107",
+        "name": "GO-2024-3107",
+        "description": "Stack exhaustion in Parse in go/build/constraint",
+        "aliases": [
+          "CVE-2024-34158"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    }
+  ]
+}

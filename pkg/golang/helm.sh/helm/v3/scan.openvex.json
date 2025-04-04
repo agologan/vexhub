@@ -1,0 +1,183 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "govulncheck/vex:0f72e04c0ce9aaef9870c4f0e7e523bfcfa01f6baf68a7a1807f9154d6fe847f",
+  "author": "agologan@users.noreply.github.com",
+  "timestamp": "2025-04-04T19:12:13.008536Z",
+  "version": 1,
+  "tooling": "https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck",
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3321",
+        "name": "GO-2024-3321",
+        "description": "Misuse of connection.serverAuthenticate may cause authorization bypass in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3333",
+        "name": "GO-2024-3333",
+        "description": "Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.7"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.7"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3487",
+        "name": "GO-2025-3487",
+        "description": "Potential denial of service in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3488",
+        "name": "GO-2025-3488",
+        "description": "Unexpected memory consumption during token parsing in golang.org/x/oauth2",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3503",
+        "name": "GO-2025-3503",
+        "description": "HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3528",
+        "name": "GO-2025-3528",
+        "description": "containerd has an integer overflow in User ID handling in github.com/containerd/containerd",
+        "aliases": [
+          "CVE-2024-40635",
+          "GHSA-265r-hfxg-fhmg"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fcontainerd%2Fcontainerd@v1.7.23"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    }
+  ]
+}

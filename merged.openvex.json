@@ -1,8 +1,8 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "merged-vex-4ce12987752b602d7765b6d282604ca15a9c90956285f39c973c930192ee77de",
+  "@id": "merged-vex-5523dcae28a2d22e607820f95711a2a543b2c9b8fdbfaebe4dd94cd95e809218",
   "author": "agologan@users.noreply.github.com",
-  "timestamp": "2025-04-04T10:52:58.485629+03:00",
+  "timestamp": "2025-04-04T23:37:22.760495+03:00",
   "version": 1,
   "statements": [
     {
@@ -271,6 +271,106 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2022-0635",
+        "name": "GO-2022-0635",
+        "description": "In-band key negotiation issue in AWS S3 Crypto SDK for golang in github.com/aws/aws-sdk-go",
+        "aliases": [
+          "CVE-2020-8912",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Faws%2Faws-sdk-go@v1.44.156"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2022-0635",
+        "name": "GO-2022-0635",
+        "description": "In-band key negotiation issue in AWS S3 Crypto SDK for golang in github.com/aws/aws-sdk-go",
+        "aliases": [
+          "CVE-2020-8912",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Faws%2Faws-sdk-go@v1.47.11"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2022-0646",
+        "name": "GO-2022-0646",
+        "description": "CBC padding oracle issue in AWS S3 Crypto SDK for golang in github.com/aws/aws-sdk-go",
+        "aliases": [
+          "CVE-2020-8911",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Faws%2Faws-sdk-go@v1.44.156"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2022-0646",
+        "name": "GO-2022-0646",
+        "description": "CBC padding oracle issue in AWS S3 Crypto SDK for golang in github.com/aws/aws-sdk-go",
+        "aliases": [
+          "CVE-2020-8911",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Faws%2Faws-sdk-go@v1.47.11"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2022-0969",
         "name": "GO-2022-0969",
         "description": "Denial of service in net/http and golang.org/x/net/http2",
@@ -514,6 +614,30 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1702",
+        "name": "GO-2023-1702",
+        "description": "Infinite loop in parsing in go/scanner",
+        "aliases": [
+          "CVE-2023-24537"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2023-1703",
         "name": "GO-2023-1703",
         "description": "Backticks not treated as string delimiters in html/template",
@@ -535,6 +659,28 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1703",
+        "name": "GO-2023-1703",
+        "description": "Backticks not treated as string delimiters in html/template",
+        "aliases": [
+          "CVE-2023-24538"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -562,6 +708,28 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1704",
+        "name": "GO-2023-1704",
+        "description": "Excessive memory allocation in net/http and net/textproto",
+        "aliases": [
+          "CVE-2023-24534"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2023-1705",
         "name": "GO-2023-1705",
         "description": "Excessive resource consumption in net/http, net/textproto and mime/multipart",
@@ -583,6 +751,28 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1705",
+        "name": "GO-2023-1705",
+        "description": "Excessive resource consumption in net/http, net/textproto and mime/multipart",
+        "aliases": [
+          "CVE-2023-24536"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -610,6 +800,28 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1751",
+        "name": "GO-2023-1751",
+        "description": "Improper sanitization of CSS values in html/template",
+        "aliases": [
+          "CVE-2023-24539"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2023-1752",
         "name": "GO-2023-1752",
         "description": "Improper handling of JavaScript whitespace in html/template",
@@ -631,6 +843,28 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1752",
+        "name": "GO-2023-1752",
+        "description": "Improper handling of JavaScript whitespace in html/template",
+        "aliases": [
+          "CVE-2023-24540"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -658,6 +892,28 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1753",
+        "name": "GO-2023-1753",
+        "description": "Improper handling of empty HTML attributes in html/template",
+        "aliases": [
+          "CVE-2023-29400"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2023-1840",
         "name": "GO-2023-1840",
         "description": "Unsafe behavior in setuid/setgid binaries in runtime",
@@ -678,6 +934,28 @@
       ],
       "status": "fixed",
       "status_notes": "https://github.com/tianon/gosu/issues/128#issuecomment-1607803883"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1840",
+        "name": "GO-2023-1840",
+        "description": "Unsafe behavior in setuid/setgid binaries in runtime",
+        "aliases": [
+          "CVE-2023-29403"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -705,6 +983,28 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1878",
+        "name": "GO-2023-1878",
+        "description": "Insufficient sanitization of Host header in net/http",
+        "aliases": [
+          "CVE-2023-29406"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2023-1987",
         "name": "GO-2023-1987",
         "description": "Large RSA keys can cause high CPU usage in crypto/tls",
@@ -726,6 +1026,76 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1987",
+        "name": "GO-2023-1987",
+        "description": "Large RSA keys can cause high CPU usage in crypto/tls",
+        "aliases": [
+          "CVE-2023-29409"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-1988",
+        "name": "GO-2023-1988",
+        "description": "Improper rendering of text nodes in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2023-3978",
+          "GHSA-2wrh-6pvc-2jm9"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-2020",
+        "name": "GO-2023-2020",
+        "description": "Alertmanager UI is vulnerable to stored XSS via the /api/v1/alerts endpoint in github.com/prometheus/alertmanager",
+        "aliases": [
+          "CVE-2023-40577",
+          "GHSA-v86x-5fm3-5p7j"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fprometheus%2Falertmanager@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -753,6 +1123,28 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-2041",
+        "name": "GO-2023-2041",
+        "description": "Improper handling of HTML-like comments in script contexts in html/template",
+        "aliases": [
+          "CVE-2023-39318"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2023-2043",
         "name": "GO-2023-2043",
         "description": "Improper handling of special tags within script contexts in html/template",
@@ -774,6 +1166,28 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-2043",
+        "name": "GO-2023-2043",
+        "description": "Improper handling of special tags within script contexts in html/template",
+        "aliases": [
+          "CVE-2023-39319"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -802,6 +1216,32 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-2102",
+        "name": "GO-2023-2102",
+        "description": "HTTP/2 rapid reset can cause excessive work in net/http",
+        "aliases": [
+          "CVE-2023-39325",
+          "GHSA-4374-p667-p6c8"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            },
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2023-2186",
         "name": "GO-2023-2186",
         "description": "Incorrect detection of reserved device names on Windows in path/filepath",
@@ -816,6 +1256,30 @@
           "subcomponents": [
             {
               "@id": "pkg:golang/stdlib@v1.18.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-2186",
+        "name": "GO-2023-2186",
+        "description": "Incorrect detection of reserved device names on Windows in path/filepath",
+        "aliases": [
+          "CVE-2023-45284"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
             }
           ]
         }
@@ -874,6 +1338,53 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-2382",
+        "name": "GO-2023-2382",
+        "description": "Denial of service via chunk extensions in net/http",
+        "aliases": [
+          "CVE-2023-39326"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2023-2402",
+        "name": "GO-2023-2402",
+        "description": "Man-in-the-middle attacker can compromise integrity of secure channel in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2023-48795",
+          "GHSA-45x7-px36-x8w8"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2024-2598",
         "name": "GO-2024-2598",
         "description": "Verify panics on certificates with an unknown public key algorithm in crypto/x509",
@@ -895,6 +1406,50 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2598",
+        "name": "GO-2024-2598",
+        "description": "Verify panics on certificates with an unknown public key algorithm in crypto/x509",
+        "aliases": [
+          "CVE-2024-24783"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2598",
+        "name": "GO-2024-2598",
+        "description": "Verify panics on certificates with an unknown public key algorithm in crypto/x509",
+        "aliases": [
+          "CVE-2024-24783"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -922,6 +1477,50 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2599",
+        "name": "GO-2024-2599",
+        "description": "Memory exhaustion in multipart form parsing in net/textproto and net/http",
+        "aliases": [
+          "CVE-2023-45290"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2599",
+        "name": "GO-2024-2599",
+        "description": "Memory exhaustion in multipart form parsing in net/textproto and net/http",
+        "aliases": [
+          "CVE-2023-45290"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2024-2600",
         "name": "GO-2024-2600",
         "description": "Incorrect forwarding of sensitive headers and cookies on HTTP redirect in net/http",
@@ -943,6 +1542,50 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2600",
+        "name": "GO-2024-2600",
+        "description": "Incorrect forwarding of sensitive headers and cookies on HTTP redirect in net/http",
+        "aliases": [
+          "CVE-2023-45289"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2600",
+        "name": "GO-2024-2600",
+        "description": "Incorrect forwarding of sensitive headers and cookies on HTTP redirect in net/http",
+        "aliases": [
+          "CVE-2023-45289"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -970,6 +1613,54 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2609",
+        "name": "GO-2024-2609",
+        "description": "Comments in display names are incorrectly handled in net/mail",
+        "aliases": [
+          "CVE-2024-24784"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2609",
+        "name": "GO-2024-2609",
+        "description": "Comments in display names are incorrectly handled in net/mail",
+        "aliases": [
+          "CVE-2024-24784"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2024-2610",
         "name": "GO-2024-2610",
         "description": "Errors returned from JSON marshaling may break template escaping in html/template",
@@ -984,6 +1675,75 @@
           "subcomponents": [
             {
               "@id": "pkg:golang/stdlib@v1.18.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2610",
+        "name": "GO-2024-2610",
+        "description": "Errors returned from JSON marshaling may break template escaping in html/template",
+        "aliases": [
+          "CVE-2024-24785"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2610",
+        "name": "GO-2024-2610",
+        "description": "Errors returned from JSON marshaling may break template escaping in html/template",
+        "aliases": [
+          "CVE-2024-24785"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2611",
+        "name": "GO-2024-2611",
+        "description": "Infinite loop in JSON unmarshaling in google.golang.org/protobuf",
+        "aliases": [
+          "CVE-2024-24786",
+          "GHSA-8r3f-844c-mc37"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org%2Fprotobuf@v1.28.1"
             }
           ]
         }
@@ -1019,6 +1779,80 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2687",
+        "name": "GO-2024-2687",
+        "description": "HTTP/2 CONTINUATION flood in net/http",
+        "aliases": [
+          "CVE-2023-45288",
+          "GHSA-4v7x-pqxf-cx7m"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+            },
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2687",
+        "name": "GO-2024-2687",
+        "description": "HTTP/2 CONTINUATION flood in net/http",
+        "aliases": [
+          "CVE-2023-45288",
+          "GHSA-4v7x-pqxf-cx7m"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2748",
+        "name": "GO-2024-2748",
+        "description": "Privilege Escalation in Kubernetes in k8s.io/apimachinery",
+        "aliases": [
+          "CVE-2020-8559",
+          "GHSA-33c5-9fx5-fvjm"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fapimachinery@v0.18.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2024-2887",
         "name": "GO-2024-2887",
         "description": "Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses in net/netip",
@@ -1040,6 +1874,50 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2887",
+        "name": "GO-2024-2887",
+        "description": "Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses in net/netip",
+        "aliases": [
+          "CVE-2024-24790"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2887",
+        "name": "GO-2024-2887",
+        "description": "Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses in net/netip",
+        "aliases": [
+          "CVE-2024-24790"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     },
     {
       "vulnerability": {
@@ -1067,6 +1945,77 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2888",
+        "name": "GO-2024-2888",
+        "description": "Mishandling of corrupt central directory record in archive/zip",
+        "aliases": [
+          "CVE-2024-24789"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2888",
+        "name": "GO-2024-2888",
+        "description": "Mishandling of corrupt central directory record in archive/zip",
+        "aliases": [
+          "CVE-2024-24789"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2947",
+        "name": "GO-2024-2947",
+        "description": "Leak of sensitive information to log files in github.com/hashicorp/go-retryablehttp",
+        "aliases": [
+          "CVE-2024-6104",
+          "GHSA-v6v8-xj6m-xwqh"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fhashicorp%2Fgo-retryablehttp@v0.7.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2024-2963",
         "name": "GO-2024-2963",
         "description": "Denial of service due to improper 100-continue handling in net/http",
@@ -1081,6 +2030,98 @@
           "subcomponents": [
             {
               "@id": "pkg:golang/stdlib@v1.18.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2963",
+        "name": "GO-2024-2963",
+        "description": "Denial of service due to improper 100-continue handling in net/http",
+        "aliases": [
+          "CVE-2024-24791"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2963",
+        "name": "GO-2024-2963",
+        "description": "Denial of service due to improper 100-continue handling in net/http",
+        "aliases": [
+          "CVE-2024-24791"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-2963",
+        "name": "GO-2024-2963",
+        "description": "Denial of service due to improper 100-continue handling in net/http",
+        "aliases": [
+          "CVE-2024-24791"
+        ]
+      },
+      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3005",
+        "name": "GO-2024-3005",
+        "description": "Moby authz zero length regression in github.com/moby/moby",
+        "aliases": [
+          "CVE-2024-41110"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fdocker%2Fdocker@v24.0.9+incompatible"
             }
           ]
         }
@@ -1115,6 +2156,102 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3105",
+        "name": "GO-2024-3105",
+        "description": "Stack exhaustion in all Parse functions in go/parser",
+        "aliases": [
+          "CVE-2024-34155"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3105",
+        "name": "GO-2024-3105",
+        "description": "Stack exhaustion in all Parse functions in go/parser",
+        "aliases": [
+          "CVE-2024-34155"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3105",
+        "name": "GO-2024-3105",
+        "description": "Stack exhaustion in all Parse functions in go/parser",
+        "aliases": [
+          "CVE-2024-34155"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3105",
+        "name": "GO-2024-3105",
+        "description": "Stack exhaustion in all Parse functions in go/parser",
+        "aliases": [
+          "CVE-2024-34155"
+        ]
+      },
+      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2024-3106",
         "name": "GO-2024-3106",
         "description": "Stack exhaustion in Decoder.Decode in encoding/gob",
@@ -1129,6 +2266,98 @@
           "subcomponents": [
             {
               "@id": "pkg:golang/stdlib@v1.18.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3106",
+        "name": "GO-2024-3106",
+        "description": "Stack exhaustion in Decoder.Decode in encoding/gob",
+        "aliases": [
+          "CVE-2024-34156"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3106",
+        "name": "GO-2024-3106",
+        "description": "Stack exhaustion in Decoder.Decode in encoding/gob",
+        "aliases": [
+          "CVE-2024-34156"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3106",
+        "name": "GO-2024-3106",
+        "description": "Stack exhaustion in Decoder.Decode in encoding/gob",
+        "aliases": [
+          "CVE-2024-34156"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3106",
+        "name": "GO-2024-3106",
+        "description": "Stack exhaustion in Decoder.Decode in encoding/gob",
+        "aliases": [
+          "CVE-2024-34156"
+        ]
+      },
+      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
             }
           ]
         }
@@ -1163,6 +2392,396 @@
     },
     {
       "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3107",
+        "name": "GO-2024-3107",
+        "description": "Stack exhaustion in Parse in go/build/constraint",
+        "aliases": [
+          "CVE-2024-34158"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3107",
+        "name": "GO-2024-3107",
+        "description": "Stack exhaustion in Parse in go/build/constraint",
+        "aliases": [
+          "CVE-2024-34158"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3107",
+        "name": "GO-2024-3107",
+        "description": "Stack exhaustion in Parse in go/build/constraint",
+        "aliases": [
+          "CVE-2024-34158"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3107",
+        "name": "GO-2024-3107",
+        "description": "Stack exhaustion in Parse in go/build/constraint",
+        "aliases": [
+          "CVE-2024-34158"
+        ]
+      },
+      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3250",
+        "name": "GO-2024-3250",
+        "description": "Improper error handling in ParseWithClaims and bad documentation may cause dangerous situations in github.com/golang-jwt/jwt",
+        "aliases": [
+          "CVE-2024-51744",
+          "GHSA-29wx-vh33-7x7r"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fgolang-jwt%2Fjwt@v3.2.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3302",
+        "name": "GO-2024-3302",
+        "description": "ICMP Packet Too Large Injection Attack on Linux in github.com/quic-go/quic-go",
+        "aliases": [
+          "CVE-2024-53259",
+          "GHSA-px8v-pp82-rcvr"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fquic-go%2Fquic-go@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3321",
+        "name": "GO-2024-3321",
+        "description": "Misuse of connection.serverAuthenticate may cause authorization bypass in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3321",
+        "name": "GO-2024-3321",
+        "description": "Misuse of connection.serverAuthenticate may cause authorization bypass in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3321",
+        "name": "GO-2024-3321",
+        "description": "Misuse of connection.serverAuthenticate may cause authorization bypass in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3321",
+        "name": "GO-2024-3321",
+        "description": "Misuse of connection.serverAuthenticate may cause authorization bypass in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3321",
+        "name": "GO-2024-3321",
+        "description": "Misuse of connection.serverAuthenticate may cause authorization bypass in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2025-04-04T19:12:13.008536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3333",
+        "name": "GO-2024-3333",
+        "description": "Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3333",
+        "name": "GO-2024-3333",
+        "description": "Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3333",
+        "name": "GO-2024-3333",
+        "description": "Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3333",
+        "name": "GO-2024-3333",
+        "description": "Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3333",
+        "name": "GO-2024-3333",
+        "description": "Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-04-04T19:12:13.008536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
         "name": "GO-2025-3373",
         "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
@@ -1177,6 +2796,140 @@
           "subcomponents": [
             {
               "@id": "pkg:golang/stdlib@v1.18.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.9"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "timestamp": "2025-04-04T19:12:13.008536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.7"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
             }
           ]
         }
@@ -1208,6 +2961,635 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.2"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.9"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.20.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "timestamp": "2025-04-04T19:12:13.008536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.7"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3465",
+        "name": "GO-2025-3465",
+        "description": "Node Denial of Service via kubelet Checkpoint API in k8s.io/kubernetes",
+        "aliases": [
+          "CVE-2025-0426",
+          "GHSA-jgfp-53c3-624w"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3487",
+        "name": "GO-2025-3487",
+        "description": "Potential denial of service in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3487",
+        "name": "GO-2025-3487",
+        "description": "Potential denial of service in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3487",
+        "name": "GO-2025-3487",
+        "description": "Potential denial of service in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3487",
+        "name": "GO-2025-3487",
+        "description": "Potential denial of service in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3487",
+        "name": "GO-2025-3487",
+        "description": "Potential denial of service in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-04-04T19:12:13.008536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3488",
+        "name": "GO-2025-3488",
+        "description": "Unexpected memory consumption during token parsing in golang.org/x/oauth2",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.0.0-20220909003341-f21342109be1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3488",
+        "name": "GO-2025-3488",
+        "description": "Unexpected memory consumption during token parsing in golang.org/x/oauth2",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.18.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3488",
+        "name": "GO-2025-3488",
+        "description": "Unexpected memory consumption during token parsing in golang.org/x/oauth2",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.16.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3488",
+        "name": "GO-2025-3488",
+        "description": "Unexpected memory consumption during token parsing in golang.org/x/oauth2",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-04-04T19:12:13.008536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3503",
+        "name": "GO-2025-3503",
+        "description": "HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-04-04T17:15:39.26785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/danielqsj/kafka_exporter@1.8.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3503",
+        "name": "GO-2025-3503",
+        "description": "HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-04-04T17:28:14.908721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3503",
+        "name": "GO-2025-3503",
+        "description": "HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3503",
+        "name": "GO-2025-3503",
+        "description": "HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3503",
+        "name": "GO-2025-3503",
+        "description": "HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-04-04T19:12:13.008536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3521",
+        "name": "GO-2025-3521",
+        "description": "Kubernetes GitRepo Volume Inadvertent Local Repository Access in k8s.io/kubernetes",
+        "aliases": [
+          "CVE-2025-1767",
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3522",
+        "name": "GO-2025-3522",
+        "description": "Kubernetes allows Command Injection affecting Windows nodes via nodes/*/logs/query API in k8s.io/kubernetes",
+        "aliases": [
+          "CVE-2024-9042",
+          "GHSA-vv39-3w5q-974q"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3528",
+        "name": "GO-2025-3528",
+        "description": "containerd has an integer overflow in User ID handling in github.com/containerd/containerd",
+        "aliases": [
+          "CVE-2024-40635",
+          "GHSA-265r-hfxg-fhmg"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fcontainerd%2Fcontainerd@v1.7.12"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3528",
+        "name": "GO-2025-3528",
+        "description": "containerd has an integer overflow in User ID handling in github.com/containerd/containerd",
+        "aliases": [
+          "CVE-2024-40635",
+          "GHSA-265r-hfxg-fhmg"
+        ]
+      },
+      "timestamp": "2025-04-04T19:12:13.008536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/helm/v3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fcontainerd%2Fcontainerd@v1.7.23"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3547",
+        "name": "GO-2025-3547",
+        "description": "Kubernetes kube-apiserver Vulnerable to Race Condition in k8s.io/kubernetes",
+        "aliases": [
+          "CVE-2024-7598",
+          "GHSA-r56h-j38w-hrqq"
+        ]
+      },
+      "timestamp": "2025-04-04T17:49:50.544018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3553",
+        "name": "GO-2025-3553",
+        "description": "Excessive memory allocation during header parsing in github.com/golang-jwt/jwt",
+        "aliases": [
+          "CVE-2025-30204",
+          "GHSA-mh63-6h87-95cp"
+        ]
+      },
+      "timestamp": "2025-04-04T18:21:02.089867Z",
+      "products": [
+        {
+          "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fgolang-jwt%2Fjwt@v3.2.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
     }
   ]
 }

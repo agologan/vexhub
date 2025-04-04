@@ -1,0 +1,280 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "govulncheck/vex:56c9518a077171c7d00ad11c5230b508bd1234762a11813c80d6e8b0e0a5e5b3",
+  "author": "agologan@users.noreply.github.com",
+  "timestamp": "2025-04-04T17:49:50.544018Z",
+  "version": 1,
+  "tooling": "https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck",
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3302",
+        "name": "GO-2024-3302",
+        "description": "ICMP Packet Too Large Injection Attack on Linux in github.com/quic-go/quic-go",
+        "aliases": [
+          "CVE-2024-53259",
+          "GHSA-px8v-pp82-rcvr"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com%2Fquic-go%2Fquic-go@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3321",
+        "name": "GO-2024-3321",
+        "description": "Misuse of connection.serverAuthenticate may cause authorization bypass in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2024-3333",
+        "name": "GO-2024-3333",
+        "description": "Non-linear parsing of case-insensitive content in golang.org/x/net/html",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3373",
+        "name": "GO-2025-3373",
+        "description": "Usage of IPv6 zone IDs can bypass URI name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2024-45341"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.9"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3420",
+        "name": "GO-2025-3420",
+        "description": "Sensitive headers incorrectly sent after cross-domain redirect in net/http",
+        "aliases": [
+          "CVE-2024-45336"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.9"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3465",
+        "name": "GO-2025-3465",
+        "description": "Node Denial of Service via kubelet Checkpoint API in k8s.io/kubernetes",
+        "aliases": [
+          "CVE-2025-0426",
+          "GHSA-jgfp-53c3-624w"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3487",
+        "name": "GO-2025-3487",
+        "description": "Potential denial of service in golang.org/x/crypto",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3488",
+        "name": "GO-2025-3488",
+        "description": "Unexpected memory consumption during token parsing in golang.org/x/oauth2",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.18.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3503",
+        "name": "GO-2025-3503",
+        "description": "HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3521",
+        "name": "GO-2025-3521",
+        "description": "Kubernetes GitRepo Volume Inadvertent Local Repository Access in k8s.io/kubernetes",
+        "aliases": [
+          "CVE-2025-1767",
+          "GHSA-3wgm-2gw2-vh5m"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3522",
+        "name": "GO-2025-3522",
+        "description": "Kubernetes allows Command Injection affecting Windows nodes via nodes/*/logs/query API in k8s.io/kubernetes",
+        "aliases": [
+          "CVE-2024-9042",
+          "GHSA-vv39-3w5q-974q"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-3547",
+        "name": "GO-2025-3547",
+        "description": "Kubernetes kube-apiserver Vulnerable to Race Condition in k8s.io/kubernetes",
+        "aliases": [
+          "CVE-2024-7598",
+          "GHSA-r56h-j38w-hrqq"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/k8s.io/dns@1.25.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+            }
+          ]
+        }
+      ],
+      "status": "affected"
+    }
+  ],
+  "autho": "agologan@users.noreply.github.com"
+}
