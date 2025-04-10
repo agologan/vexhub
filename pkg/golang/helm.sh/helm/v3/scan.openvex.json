@@ -21,7 +21,7 @@
           "@id": "pkg:golang/helm.sh/helm/v3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.27.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
             }
           ]
         }
@@ -43,7 +43,7 @@
           "@id": "pkg:golang/helm.sh/helm/v3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.26.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
             }
           ]
         }
@@ -106,7 +106,7 @@
           "@id": "pkg:golang/helm.sh/helm/v3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.27.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
             }
           ]
         }
@@ -127,7 +127,7 @@
           "@id": "pkg:golang/helm.sh/helm/v3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.21.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
             }
           ]
         }
@@ -148,7 +148,7 @@
           "@id": "pkg:golang/helm.sh/helm/v3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.26.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
             }
           ]
         }
@@ -170,7 +170,7 @@
           "@id": "pkg:golang/helm.sh/helm/v3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Fcontainerd%2Fcontainerd@v1.7.23"
+              "@id": "pkg:golang/github.com/containerd/containerd@v1.7.23"
             }
           ]
         }

@@ -21,7 +21,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Fquic-go%2Fquic-go@v0.42.0"
+              "@id": "pkg:golang/github.com/quic-go/quic-go@v0.42.0"
             }
           ]
         }
@@ -43,7 +43,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.22.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
             }
           ]
         }
@@ -67,7 +67,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
             }
           ]
         }
@@ -133,7 +133,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.28.14"
             }
           ]
         }
@@ -154,7 +154,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.22.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
             }
           ]
         }
@@ -177,7 +177,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.18.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.18.0"
             }
           ]
         }
@@ -200,7 +200,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
             }
           ]
         }
@@ -224,7 +224,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.28.14"
             }
           ]
         }
@@ -246,7 +246,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.28.14"
             }
           ]
         }
@@ -268,7 +268,7 @@
           "@id": "pkg:golang/k8s.io/dns@1.25.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io%2Fkubernetes@v1.28.14"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.28.14"
             }
           ]
         }

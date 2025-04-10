@@ -21,7 +21,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Faws%2Faws-sdk-go@v1.44.156"
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.156"
             }
           ]
         }
@@ -45,7 +45,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Faws%2Faws-sdk-go@v1.44.156"
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.156"
             }
           ]
         }
@@ -281,7 +281,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
             }
           ]
         }
@@ -305,7 +305,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Fprometheus%2Falertmanager@v0.25.0"
+              "@id": "pkg:golang/github.com/prometheus/alertmanager@v0.25.0"
             }
           ]
         }
@@ -372,7 +372,7 @@
               "@id": "pkg:golang/stdlib@v1.20.2"
             },
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
             }
           ]
         }
@@ -438,7 +438,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.6.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.6.0"
             }
           ]
         }
@@ -569,7 +569,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org%2Fprotobuf@v1.28.1"
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.28.1"
             }
           ]
         }
@@ -593,7 +593,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
             },
             {
               "@id": "pkg:golang/stdlib@v1.20.2"
@@ -618,7 +618,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io%2Fapimachinery@v0.18.2"
+              "@id": "pkg:golang/k8s.io/apimachinery@v0.18.2"
             }
           ]
         }
@@ -686,7 +686,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Fhashicorp%2Fgo-retryablehttp@v0.7.2"
+              "@id": "pkg:golang/github.com/hashicorp/go-retryablehttp@v0.7.2"
             }
           ]
         }
@@ -798,7 +798,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.6.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.6.0"
             }
           ]
         }
@@ -822,7 +822,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
             }
           ]
         }
@@ -887,7 +887,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.6.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.6.0"
             }
           ]
         }
@@ -910,7 +910,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.0.0-20220909003341-f21342109be1"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.0.0-20220909003341-f21342109be1"
             }
           ]
         }
@@ -933,7 +933,7 @@
           "@id": "pkg:golang/github.com/prometheus-msteams/prometheus-msteams@v1.5.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
             }
           ]
         }

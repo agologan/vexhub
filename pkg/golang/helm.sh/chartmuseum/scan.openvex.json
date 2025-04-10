@@ -21,7 +21,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Faws%2Faws-sdk-go@v1.47.11"
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.47.11"
             }
           ]
         }
@@ -45,7 +45,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Faws%2Faws-sdk-go@v1.47.11"
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.47.11"
             }
           ]
         }
@@ -262,7 +262,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Fdocker%2Fdocker@v24.0.9+incompatible"
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.9+incompatible"
             }
           ]
         }
@@ -353,7 +353,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Fgolang-jwt%2Fjwt@v3.2.2+incompatible"
+              "@id": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible"
             }
           ]
         }
@@ -377,7 +377,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.21.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
             }
           ]
         }
@@ -401,7 +401,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
             }
           ]
         }
@@ -466,7 +466,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fcrypto@v0.21.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
             }
           ]
         }
@@ -489,7 +489,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Foauth2@v0.16.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.16.0"
             }
           ]
         }
@@ -512,7 +512,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org%2Fx%2Fnet@v0.23.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
             }
           ]
         }
@@ -536,7 +536,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Fcontainerd%2Fcontainerd@v1.7.12"
+              "@id": "pkg:golang/github.com/containerd/containerd@v1.7.12"
             }
           ]
         }
@@ -558,7 +558,7 @@
           "@id": "pkg:golang/helm.sh/chartmuseum@0.16.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com%2Fgolang-jwt%2Fjwt@v3.2.2+incompatible"
+              "@id": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible"
             }
           ]
         }
