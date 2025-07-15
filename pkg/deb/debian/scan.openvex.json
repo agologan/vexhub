@@ -1,0 +1,22 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-d68ffa48a1e9593b646511fc3e60385d07041bd10121e14abd92df11f738bcb9",
+  "author": "agologan@users.noreply.github.com",
+  "timestamp": "2025-07-15T14:42:33.758945+03:00",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45853"
+      },
+      "timestamp": "2025-07-15T14:42:33.758947+03:00",
+      "products": [
+        {
+          "@id": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "The vulnerable MiniZip code is not present in the zlib1g Debian binary package."
+    }
+  ]
+}
