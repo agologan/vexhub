@@ -1,10 +1,23 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "merged-vex-5523dcae28a2d22e607820f95711a2a543b2c9b8fdbfaebe4dd94cd95e809218",
+  "@id": "merged-vex-f14e20fb0f0238cab2743f9a5a045b0c62acf4351fed1c5b741851d7f422e312",
   "author": "agologan@users.noreply.github.com",
-  "timestamp": "2025-04-09T21:47:32.168306+03:00",
+  "timestamp": "2025-07-15T14:58:41.051306+03:00",
   "version": 1,
   "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45853"
+      },
+      "timestamp": "2025-07-15T14:42:33.758947+03:00",
+      "products": [
+        {
+          "@id": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "The vulnerable MiniZip code is not present in the zlib1g Debian binary package."
+    },
     {
       "vulnerability": {
         "@id": "https://pkg.go.dev/vuln/GO-2022-0515",

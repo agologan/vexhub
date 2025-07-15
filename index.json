@@ -28,6 +28,10 @@
       {
          "id": "pkg:golang/k8s.io/dns",
          "location": "pkg/golang/k8s.io/dns/scan.openvex.json"
+      },
+      {
+         "id": "pkg:deb/debian",
+         "location": "pkg/deb/debian/scan.openvex.json"
       }
    ]
 }
