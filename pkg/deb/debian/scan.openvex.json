@@ -16,7 +16,8 @@
         }
       ],
       "status": "not_affected",
-      "justification": "The vulnerable MiniZip code is not present in the zlib1g Debian binary package."
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "The vulnerable MiniZip code is not present in the zlib1g Debian binary package."
     }
   ]
 }
