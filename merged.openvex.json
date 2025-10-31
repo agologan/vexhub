@@ -1,8 +1,8 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "merged-vex-f14e20fb0f0238cab2743f9a5a045b0c62acf4351fed1c5b741851d7f422e312",
+  "@id": "merged-vex-ba00b247a3abc0d69d2b9838d76ae36e910ef39f88bedadd2258383de7a86484",
   "author": "agologan@users.noreply.github.com",
-  "timestamp": "2025-07-15T14:58:41.051306+03:00",
+  "timestamp": "2025-10-31T16:27:53.32568+02:00",
   "version": 1,
   "statements": [
     {
@@ -16,7 +16,8 @@
         }
       ],
       "status": "not_affected",
-      "justification": "The vulnerable MiniZip code is not present in the zlib1g Debian binary package."
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "The vulnerable MiniZip code is not present in the zlib1g Debian binary package."
     },
     {
       "vulnerability": {
@@ -2104,7 +2105,7 @@
           "CVE-2024-24791"
         ]
       },
-      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "timestamp": "2025-10-31T14:18:43.456063Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/containernetworking/plugins",
@@ -2248,7 +2249,7 @@
           "CVE-2024-34155"
         ]
       },
-      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "timestamp": "2025-10-31T14:18:43.456063Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/containernetworking/plugins",
@@ -2364,7 +2365,7 @@
           "CVE-2024-34156"
         ]
       },
-      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "timestamp": "2025-10-31T14:18:43.456063Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/containernetworking/plugins",
@@ -2484,7 +2485,7 @@
           "CVE-2024-34158"
         ]
       },
-      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "timestamp": "2025-10-31T14:18:43.456063Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/containernetworking/plugins",
@@ -2936,7 +2937,7 @@
           "CVE-2024-45341"
         ]
       },
-      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "timestamp": "2025-10-31T14:18:43.456063Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/containernetworking/plugins",
@@ -3096,7 +3097,7 @@
           "CVE-2024-45336"
         ]
       },
-      "timestamp": "2025-04-04T20:31:54.434483Z",
+      "timestamp": "2025-10-31T14:18:43.456063Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/containernetworking/plugins",
@@ -3603,6 +3604,256 @@
         }
       ],
       "status": "affected"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4006",
+        "name": "GO-2025-4006",
+        "description": "Excessive CPU consumption in ParseAddress in net/mail",
+        "aliases": [
+          "CVE-2025-61725",
+          "CVE-2025-61725"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4007",
+        "name": "GO-2025-4007",
+        "description": "Quadratic complexity when checking name constraints in crypto/x509",
+        "aliases": [
+          "CVE-2025-58187",
+          "CVE-2025-58187"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4008",
+        "name": "GO-2025-4008",
+        "description": "ALPN negotiation error contains attacker controlled information in crypto/tls",
+        "aliases": [
+          "CVE-2025-58189",
+          "CVE-2025-58189"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4009",
+        "name": "GO-2025-4009",
+        "description": "Quadratic complexity when parsing some invalid inputs in encoding/pem",
+        "aliases": [
+          "CVE-2025-61723",
+          "CVE-2025-61723"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4010",
+        "name": "GO-2025-4010",
+        "description": "Insufficient validation of bracketed IPv6 hostnames in net/url",
+        "aliases": [
+          "CVE-2025-47912",
+          "CVE-2025-47912"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4011",
+        "name": "GO-2025-4011",
+        "description": "Parsing DER payload can cause memory exhaustion in encoding/asn1",
+        "aliases": [
+          "CVE-2025-58185",
+          "CVE-2025-58185"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4012",
+        "name": "GO-2025-4012",
+        "description": "Lack of limit when parsing cookies can cause memory exhaustion in net/http",
+        "aliases": [
+          "CVE-2025-58186",
+          "CVE-2025-58186"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4013",
+        "name": "GO-2025-4013",
+        "description": "Panic when validating certificates with DSA public keys in crypto/x509",
+        "aliases": [
+          "CVE-2025-58188",
+          "CVE-2025-58188"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4014",
+        "name": "GO-2025-4014",
+        "description": "Unbounded allocation when parsing GNU sparse map in archive/tar",
+        "aliases": [
+          "CVE-2025-58183",
+          "CVE-2025-58183"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://pkg.go.dev/vuln/GO-2025-4015",
+        "name": "GO-2025-4015",
+        "description": "Excessive CPU consumption in Reader.ReadResponse in net/textproto",
+        "aliases": [
+          "CVE-2025-61724",
+          "CVE-2025-61724"
+        ]
+      },
+      "timestamp": "2025-10-31T14:18:43.456063Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/containernetworking/plugins",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]
 }
