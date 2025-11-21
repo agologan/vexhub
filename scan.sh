@@ -21,8 +21,9 @@ docker create --name dummy $IMAGE_NAME
 docker cp dummy:$SRC_PATH $NAME
 docker rm -f dummy
 
-~/go/bin/govulncheck -mode binary -format openvex $NAME > scan.openvex.json
-rm $NAME
+# https://github.com/golang/go/issues/75890
+~/go/bin/govulncheck -mode binary -format openvex $NAME | jq '(.statements[].vulnerability.aliases) |= unique' > scan.openvex.json
+# rm $NAME
 
 jq ".statements[].products[0].\"@id\" = \"$PURL\"" scan.openvex.json | sponge scan.openvex.json
 jq ".author = \"$AUTHOR\"" scan.openvex.json | sponge scan.openvex.json
